@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 25pt;
+    margin: 0px;
+    padding: 0px;
+}
+/* Los utilizo en varios lugares */
+.margin{
+    margin: 10px 0;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/* Dando estilo al header */
+header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%; 
+}
+
+.containerCabecera{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerCabecera img{
+    margin: 20px;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 30px;
+    list-style: none;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+h1{
+    color: white;
+    font-size: 30px; 
+    margin-left: 50px;
+    margin-top: 500px;
+}
+
+header h2{
+    color: white;
+    font-size: 30px; 
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+/* Estilo para la primer sección */
+.aboutUs{
+    text-align: center;
+}
+
+.cajas{
+    display: block;
+    margin: 10px 10px;
+}
+
+.muestras{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cajas2{
+    text-align: left;
+}
+
+.cajas2 img{
+    margin: 10px 10px;
+    width: 95%;
+}
+
+h4{
+    color: chartreuse;
+}
+
+.cajas3{
+   display: flex;
+}
+
+.cajas3 p{
+    margin-top: 30px;
+}
+
+.irDetalle{
+    background-color:darkorange;
+    border: none;
+    color: white;
+    margin: 10PX 120PX;
+    padding: 10PX; 
+    text-align: center;  
+    width: 200px;
+}
+
+.irContenido{
+    background-color:rgb(102, 182, 27);
+    border: none;
+    color: white;
+    float: right;
+    padding: 20PX; 
+}
+
+/* Estilo para la última sección */
+.contactanos{
+    background-image: url(../images/encuentra.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding: 200px;
+    text-align: left;
+}
+
+h5{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.irContacto{
+    background-color:darkorange;
+    border: none;
+    color: white;
+    margin: 50PX 0px;
+    padding: 20PX; 
+    text-align: center;  
+    width: 200px;
+}
+
+/* Dando estilo al footer */
+footer{
+    background: rgba(0, 0, 0, 0.76);
+    color: white;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    *margin-top: -17px;
+    padding: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+footer div{
+    display: block;
+    margin-top: 20px;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
